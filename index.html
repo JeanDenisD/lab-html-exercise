@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link rel="stylesheet" href="./style.css" />
 </head>
 <body>
-    background-color: red;
     <!-- HTML 1 Add a header with a logo, search bar, and navigation links -->
     <header>
         <div>
@@ -19,35 +19,40 @@
         </div>
         <nav>
             <ul>
-            <li><a href="#"> npm Enterprise </a></li>
-            <li><a href="#"> Products </a></li>
-            <li><a href="#"> Solutions </a></li>
-            <li><a href="#"> Resources </a></li>
-            <li><a href="#"> Docs </a></li>
-            <li><a href="#"> Support </a></li>
+            <li><a href="#" class="nav-bar"> npm Enterprise </a></li>
+            <li><a href="#" class="nav-bar"> Products </a></li>
+            <li><a href="#" class="nav-bar"> Solutions </a></li>
+            <li><a href="#" class="nav-bar"> Resources </a></li>
+            <li><a href="#" class="nav-bar"> Docs </a></li>
+            <li><a href="#" class="nav-bar"> Support </a></li>
             </ul>
         </nav>
         </div>
 
-        <div class="search--bar">
+        <div class="search-bar">
         <!-- add logo, search bar and buttons (or links and style them as buttons later) -->
-        <img class="npm-logo" src="./images/npm-logo.png" alt="  npm logo" />
-        <div>
-            <img src="./images/magnifying-glass.png" alt="magnifying-glass" />
-        </div>
-        <form action="" method="get">
-            <input
-            type="text"
-            placeholder="Search packages"
-            name="search"
-            id="search"
-            />
-            <button type="submit">Search</button>
-        </form>
-        </div>
-        <div class="Link-div">
-        <a href="#" id="link-join"> Sign up </a>
-        <a href="#" id="link-login"> Sign In </a>
+            <img class="npm-logo" src="./images/npm-logo.png" alt="npm logo" />
+            <form action="" method="get" class="search-form">
+                <div class="search-input">
+                  <img src="./images/magnifying-glass.png" alt="magnifying-glass" />
+                  <input
+                    type="text"
+                    placeholder="Search packages"
+                    name="search"
+                    id="search"
+                  />
+                </div>
+                <button class="search-button" type="submit">Search</button>
+              </form>
+            <div class="link-div">
+                <a href="#" id="link-join" class="btn"> Join</a>
+                <a href="#" id="link-login" class="btn"> Log In</a>
+            </div>
+
+
+              
+
+
         </div>
     </header>
 

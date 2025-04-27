@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+body {
+  font-family: "Poppins";
+}
+
+html,
+body {
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+}
+
+header > div {
+  padding: 0 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+}
+
+nav {
+  flex: 1;
+  max-width: 600px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.blackHeart {
+  width: 20px;
+  margin-right: 1rem;
+}
+
+.search-bar {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* space between logo / form / buttons */
+  padding: 8px 0;
+  min-width: 0;
+}
+
+/* 1) logo */
+.search-bar .npm-logo {
+  width: 80px;
+}
+
+/* 2) Form use all the space in the center */
+.search-form {
+  flex: 1; /* <-- use all available space */
+  display: flex;
+  align-items: center;
+  margin: 0 20px;
+}
+
+/* icon + input */
+.search-input {
+  flex: 1; /* <-- use all available space */
+  display: flex;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  padding: 0 10px;
+  height: 40px;
+  min-width: 0;
+}
+
+.search-input img {
+  width: 20px;
+  margin-right: 10px;
+}
+.search-input input {
+  flex: 1; /* <-- use all available space */
+  border: none;
+  background: transparent;
+  font-size: 1rem;
+}
+
+.search-button {
+  background-color: #fb3e44;
+  color: white;
+  border: none;
+  padding: 0 20px;
+  height: 40px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.link-div {
+  display: flex;
+  align-items: center;
+}
+.btn {
+  margin-left: 10px;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: slategray;
+  border: 1px solid slategray;
+  border-radius: 4px;
+}
+
+#link-login {
+  border: none;
+}
