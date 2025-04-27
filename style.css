@@ -120,3 +120,50 @@ nav a {
 #link-login {
   border: none;
 }
+
+#top {
+  height: 600px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(232, 217, 217, 0.3);
+  text-align: center;
+  padding: 0 10 px;
+}
+
+#top h1 {
+  font-size: 6rem;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+  font-weight: bolder;
+}
+
+#top p {
+  max-width: 600px;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.top-actions {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+#plans {
+  background-color: #fb3b49;
+  color: white;
+  text-decoration: none;
+  padding: 0.75rem 2rem;
+  box-shadow: 8px 8px 0 rgba(251, 59, 73, 0.2);
+  margin-right: 1.5rem;
+  font-size: 1.5rem;
+}
+
+#free-join {
+  color: black;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
